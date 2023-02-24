@@ -1,0 +1,136 @@
+/* general page styles, and main box shadow */
+
+.page-content{
+    background-image: url(../Images/backggroundimagebutbetter.png);
+    height: 700px;
+    display: flex;
+    color: rgba(237,237,238,255);
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: inset -1000px -125px 2000px  33px rgba(31, 30, 30, 0.90);
+}
+
+/* left side of page styles */
+
+.page-content> .left-side{
+    display: flex;
+    margin: 60px 70px 60px 70px;
+    font-size: 45px;
+    width: 800px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.page-content> .left-side> .codepen-info> p{
+    margin-bottom: 25px;
+
+}
+
+.page-content> .left-side> .codepen-info> p1{
+    color:#d6d5ce;
+    font-size: 39px;
+}
+
+.bold-words{
+    font-weight: bolder;
+}
+
+.page-content> .left-side> .left-side-buttons {
+    display: flex;
+}
+
+.page-content> .left-side> .left-side-buttons>.button {
+    margin: 10px 15px 10px 0px;
+    padding: 17px 25px;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 47px;
+    font-weight: bolder;
+}
+
+.page-content> .left-side> .left-side-buttons>.button-2 {
+    margin: 10px 15px 10px 0px;
+    padding: 17px 25px;
+    background: #4bce79;
+    border-radius: 5px;
+    color: black;
+    font-size: 47px;
+    font-weight: bolder;
+}
+
+/* right side of page styles */
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: end;
+    border
+}
+
+
+/* for whatever reason this is marked as invalid code even though it run without errors, nothing i do makes the errors go away*/
+
+.right-side> .image-insert{
+    display: flex;
+    justify-content: end;
+}
+
+.page-content> .right-side> .image-insert img{
+    width: 725px;
+    box-shadow: -100px 100px 100px -100px #000000;
+    transition: 3s;
+    opacity: 1.0;   
+}
+
+.page-content> .right-side> .image-insert img:hover {
+    opacity: 0.0;
+}
+
+.right-side> .blurb-above-image{
+    margin-left: 280px;
+    margin-bottom: 7px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.blue-words{
+    color: #75d5f9;
+}
+
+
+/* bottom of the page styles */
+
+.bottom-of-page{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.BOLD{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+
+.bottom-bullet-points{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bullet-point{
+    display: flex;
+    background-color: #36383f;
+    border: 2px  solid  #676767;
+    font-size: 20px;
+    align-items:center;
+    width: 490px;
+    justify-content: center;
+    height: 60px;
+}
+
+.dead-space{
+    height: 75px;
+    background: #191a1d;
+}

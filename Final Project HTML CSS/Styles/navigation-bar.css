@@ -1,0 +1,95 @@
+/* general nav bar styles */
+
+.Navigation-Bar{
+    background-color: black; 
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Left side of the nav bar styles, Logo, nav links, spark and chevron styles */
+
+.left-column{
+    display: flex;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    align-items:center;
+    font-weight: bolder;
+}
+
+.codepen-logo img{
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 7px;
+}
+
+
+.explore {
+    color: rgba(236,224,134,255);
+    font-size: 15px;  
+    font-weight: 1000;
+}
+
+
+.nav-links     {
+    display: flex;
+    align-items: baseline;
+}
+
+.nav-link {  
+    margin-right: 20px;
+    font-weight: 1100;
+    font-size: 18px;
+}
+
+.spark-and-chevron {
+    margin-left: 10px;
+    color: lightgray;
+    font-size: 17px;
+}
+
+.spark-and-chevron i {
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+/* Right side of the nav bar styles, create, search, log in, and sign up buttons */
+
+.right-column {
+    color: white;
+}
+
+.right-column {
+    display: flex;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    align-items:center;
+}
+
+
+.right-column > .button {
+    padding: 17px 22px 17px 22px;
+    background-color: rgba(54,56,63,255);
+    margin: 7px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 650;
+    letter-spacing: 1px;
+}
+
+.right-column > .button > i {
+    padding-left: 3px;
+    color: rgba(74,202,120,255);
+    font-size: 20px ;
+    font-weight: bolder;
+}
+
+.right-column > .magnifying-glass {
+    padding: 17px;
+    font-size: 35px;
+    color: rgba(123,126,139,255);
+}
